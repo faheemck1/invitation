@@ -385,14 +385,18 @@
             font-family: 'Playfair Display', serif;
             font-style: italic;
             font-size: 14px;
-            color: var(--text-dark);
+            color: #111a14; /* Darker charcoal color for perfect readability */
             margin-top: 25px;
             line-height: 1.6;
             border-top: 1.5px solid var(--border-gold);
-            padding-top: 25px;
+            padding: 20px 15px;
             width: 100%;
             font-weight: 700;
-            text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9);
+            /*background: rgba(255, 255, 255, 0.75);  Soft white background overlay shield */
+            border-radius: 8px; /* Smooth rounded corners */
+            backdrop-filter: blur(4px); /* Gently blurs out the sharp gold lines behind the text */
+            -webkit-backdrop-filter: blur(4px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
         }
 
         /* Countdown Area inside Footer */
